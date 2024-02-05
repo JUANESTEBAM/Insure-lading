@@ -1,7 +1,6 @@
 import styles from "./Features.module.css";
 
 const Features = () => {
-  // eslint-disable-next-line react/prop-types
   function IconTitleText({ icon, title, text }) {
     return (
       <footer className={styles.feature}>
